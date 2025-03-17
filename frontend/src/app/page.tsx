@@ -30,10 +30,6 @@ export default function Home() {
 
   // After you style the page (Make it responsive)
 
-  // Start adding filters (there is a hook for debounce you can implement)
-  // The api is already implemented just gotta build out url: 
-  // /api/venue?name=...&minPrice=...&maxPrice=...&city=...&state=...&country=...
-
   return (
     <div>
       {user && (<NavBar user={user} />)}
