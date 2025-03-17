@@ -29,7 +29,7 @@ Pick what you want to tackle, but by the end, we need a **nicely styled, respons
   - `name`, `city`, `state`, `country`  
   - `minPrice`, `maxPrice`  
 - Simulated delay for realism  
-- **Bonus:** Pagination  
+- **Bonus:** Pagination (Requires FE and NextJS server side code change) 
 
 ## Tech Stack  
 - **Next.js** → API & UI framework  
