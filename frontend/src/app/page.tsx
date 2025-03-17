@@ -34,15 +34,6 @@ export default function Home() {
     <div>
       {user && (<NavBar user={user} />)}
       <main>
-        {/* Add filters here */}
-        {/* Filters:
-          const name = searchParams.get('name');
-          const minPrice = searchParams.get('minPrice');
-          const maxPrice = searchParams.get('maxPrice');
-          const city = searchParams.get('city');
-          const state = searchParams.get('state');
-          const country = searchParams.get('country'); 
-        */} 
         {venues.map(venue => (
           <VenueCard key={venue.id} venue={venue} />
         ))}
