@@ -24,7 +24,7 @@ Pick what you want to tackle, but by the end, we need a **nicely styled, respons
 - Simulated delay to mimic real-world API calls  
 
 ### 2️⃣ **Venues Endpoint**  
-- `GET /api/venues` → Fetches venue list  
+- `GET /api/venue` → Fetches venue list  
 - Supports filtering:  
   - `name`, `city`, `state`, `country`  
   - `minPrice`, `maxPrice`  
