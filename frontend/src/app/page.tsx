@@ -7,7 +7,7 @@ import { User } from "./api/user/route";
 import { Footer } from "@frontend/components/footer";
 
 // If you end up using Promise.all, you will have to implement it yourself
-Promise.all = function<T>(promises: Promise<T>[]) {
+const promiseAll = function<T>(promises: Promise<T>[]) {
   return new Promise<T[]>((resolve, reject) => {
     return resolve([]);
   });
